@@ -1,0 +1,11 @@
+name: cpymad-environment
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - numpy
+  - pip
+  - pip:
+    - matplotlib
+    - seaborn
+    - cpymad =1.9.0
